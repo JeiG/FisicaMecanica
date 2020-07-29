@@ -8,6 +8,10 @@ h2{
   color: white;
   font-family: "Poppins";
 }
+h3{
+    color: white;
+    font-family: "Poppins";
+}
 p{
   color: white;
   font-family: "Ubuntu"
@@ -34,7 +38,8 @@ body{
 #datos{
     background-color: rgba(255,255,255,0.2);
     border: 2px solid gray;
-    height: 300px;
+    padding: 20px;
+    height: 180px;
 }
 #animacion{
     background-color: rgba(0,0,0,0.5);
