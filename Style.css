@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu');
+h1{
+  color: white;
+  text-align: center;
+  font-family: "Poppins";
+}
+h2{
+  color: white;
+  font-family: "Poppins";
+}
+p{
+  color: white;
+  font-family: "Ubuntu"
+}
+body{
+  background-color: rgb(145,85,61);
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/1200px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg");
+  background-size: 700px;
+  background-repeat: repeat;
+}
+
+#contenedor{
+  Background-color: rgba(0,0,0, 0.8);
+  margin: 5em;
+  padding: 2em;
+}
+.imagen{
+    text-align: center;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#datos{
+    background-color: rgba(255,255,255,0.2);
+    border: 2px solid gray;
+    height: 300px;
+}
+#animacion{
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid gray;
+    height: 450px;
+    padding: 20px;
+}
+#sirio{
+    height: 20%;
+}
+#tierra{
+    margin-left: 46%;
+    margin-top: 40px;
+    height: 40%;
+}
+#luna{
+    margin-left: 85%;
+    height: 30%;
+}
+a {
+	font:bold 25px Verdana;
+	text-decoration:none;
+	color: white;
+	border: 2px solid white;
+	padding: 10px 20px 10px 20px;
+	transition: background .5s, color .5s;
+}
+
+a:hover{
+	background: white;
+	color: black;
+}
