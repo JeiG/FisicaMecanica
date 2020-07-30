@@ -20,6 +20,10 @@ body {
     z-index: 48;
 }
 
+#separador_final{
+    height: 40px;
+}
+
 #encabezado {
     width: 100%;
     height: 50px;
@@ -74,11 +78,11 @@ h1 {
     text-align: center;
 }
 
-#datos_experimento_hijo{
+.datos_experimento_hijo{
     width: 90vw;
     height: 100%;
 }
-#datos_experimento {
+.datos_experimento {
     width: 100%;
     height: auto;
     background-color: #497a7f;
@@ -93,14 +97,14 @@ h1 {
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
-#datos_experimento h2 {
+.datos_experimento h2 {
     font-size: 36px;
     line-height: 60px;
     font-weight: 600;
     padding-bottom: 100px;
 }
 
-#datos_experimento h2::after {
+.datos_experimento h2::after {
     content: '';
     border-bottom: 4px solid #0cbaba;
     width: 100px;
@@ -108,11 +112,11 @@ h1 {
     margin: auto;
 }
 
-#titulo_experimento {
+.titulo_experimento {
     text-align: center;
 }
 
-#datos_experimento_hijo2 {
+.datos_experimento_hijo2 {
     padding: 100px 0 60px 0;
 }
 
@@ -201,7 +205,24 @@ h1 {
     background-color: #0cbaba;
 }
 
+#experimento_accion{
+    height: 800px;
+    background-image: none;
+    background: rgb(44,43,43);
+    background: linear-gradient(90deg, rgba(44,43,43,1) 21%, rgba(56,0,54,1) 70%, rgba(12,186,186,1) 100%);
+}
 
+.estrella img{
+    width: 180px;
+}
+
+.luna img{
+    width: 100px;
+}
+
+.tierra img{
+    width: 150px;
+}
 /*
 
 #contenedor{
