@@ -206,7 +206,7 @@ h1 {
 }
 
 #experimento_accion{
-    height: 800px;
+    height: 1000px;
     background-image: none;
     background: rgb(44,43,43);
     background: linear-gradient(90deg, rgba(44,43,43,1) 21%, rgba(56,0,54,1) 70%, rgba(12,186,186,1) 100%);
@@ -223,6 +223,34 @@ h1 {
 .tierra img{
     width: 150px;
 }
+
+.estrella{
+    left: 50px;
+    top: 20px;
+}
+
+.luna{
+    left: 500px;
+    top: 50px;
+}
+
+.tierra{
+    top:400px;
+    left: 200px;
+}
+
+.satelites{
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#haz_luz{
+
+}
+
 /*
 
 #contenedor{
