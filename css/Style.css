@@ -206,7 +206,7 @@ h1 {
 }
 
 #experimento_accion{
-    height: 1000px;
+    height: 900px;
     background-image: none;
     background: rgb(44,43,43);
     background: linear-gradient(90deg, rgba(44,43,43,1) 21%, rgba(56,0,54,1) 70%, rgba(12,186,186,1) 100%);
@@ -306,59 +306,25 @@ h1 {
 }
 
 #botones_datos div{
-    padding: 10px;
+    text-align: center;
+    padding: 20px;
     margin: 40px;
     background-color: #0cbaba;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s;
 }
-/*
 
-#contenedor{
-  Background-color: rgba(0,0,0, 0.8);
-  margin: 5em;
-  padding: 2em;
-}
-.imagen{
+#botones_datos a{
+    text-decoration: none;
+    color: white;
     text-align: center;
-    border-radius: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-#datos{
-    background-color: rgba(255,255,255,0.2);
-    border: 2px solid gray;
-    padding: 20px;
-    height: 180px;
-}
-#animacion{
-    background-color: rgba(0,0,0,0.5);
-    border: 2px solid gray;
-    height: 450px;
-    padding: 20px;
-}
-#sirio{
-    height: 20%;
-}
-#tierra{
-    margin-left: 46%;
-    margin-top: 40px;
-    height: 40%;
-}
-#luna{
-    margin-left: 85%;
-    height: 30%;
-}
-a {
-	font:bold 25px Verdana;
-	text-decoration:none;
-	color: white;
-	border: 2px solid white;
-	padding: 10px 20px 10px 20px;
-	transition: background .5s, color .5s;
+    font-weight: 300;
 }
 
-a:hover{
-	background: white;
-	color: black;
+#botones_datos div:hover{
+    background-color: #380036;
 }
-*/
