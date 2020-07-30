@@ -28,7 +28,7 @@ function tierra_luna() {
 
             elem.style.top = pos + 'px';
             elem.style.left = pos2 + 'px';
-            texto.innerHTML = Number(pos3).toFixed(2) + 's (luz)'
+            texto.innerHTML = Number(pos3).toFixed(2) + ' segundos/luz'
         }
     }
 }
@@ -49,7 +49,7 @@ function tierra_estrella() {
     function frame() {
         if (pos <= 60 && pos2 <= -360) {
             clearInterval(id);
-            texto.innerHTML = "8.61 años (luz)";
+            texto.innerHTML = "8.61 años/luz";
         } else {
 
             if (pos > 60) {
@@ -64,7 +64,7 @@ function tierra_estrella() {
 
             elem.style.top = pos + 'px';
             elem.style.left = pos2 + 'px';
-            texto.innerHTML = Number(pos3).toFixed(2) + 'años (luz)';
+            texto.innerHTML = Number(pos3).toFixed(2) + ' años/luz';
         }
     }
 }

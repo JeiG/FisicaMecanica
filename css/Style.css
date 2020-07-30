@@ -314,7 +314,7 @@ h1 {
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
-    transition: all 3s;
+    transition: all 0.5s;
 }
 
 #botones_datos a{
