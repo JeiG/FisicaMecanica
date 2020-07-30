@@ -1,47 +1,57 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: none;
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-  background-color: white;
+body {
+    background-color: white;
     color: white;
 }
 
-#encabezado{
+.separador{
+    height: 15px;
+    width: 100%;
+    background-color: #380036;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    z-index: 48;
+}
+
+#encabezado {
     width: 100%;
     height: 50px;
     background: #2c2b2b;
     font-size: 18px;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
     z-index: 50;
 }
 
-.separador_encabezado{
+.separador_encabezado {
     margin: 0 5px;
 }
 
-.contenedor_centrado_padre{
+.contenedor_centrado_padre {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contenedor_centrado_hijo{
-    width: 70vw;
+.contenedor_centrado_hijo {
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
 }
 
-#encabezado h5{
+#encabezado h5 {
     font-weight: 400;
 }
 
-header{
+header {
     width: 100%;
     background: #2c2b2b;
     height: 400px;
@@ -51,37 +61,46 @@ header{
     background-attachment: fixed;
     background-position: center;
 
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
     z-index: 49;
 }
 
 
-h1{
+h1 {
     font-size: 118px;
     font-weight: 700;
     text-align: center;
 }
 
-#datos_experimento{
+#datos_experimento_hijo{
+    width: 90vw;
+    height: 100%;
+}
+#datos_experimento {
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color: #497a7f;
-    z-index: 48;
+    z-index: 47;
     background-image: url("../imagenes/experimento.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
-#datos_experimento h2{
+#datos_experimento h2 {
     font-size: 36px;
     line-height: 60px;
     font-weight: 600;
+    padding-bottom: 100px;
 }
 
-#datos_experimento h2::after{
+#datos_experimento h2::after {
     content: '';
     border-bottom: 4px solid #0cbaba;
     width: 100px;
@@ -93,12 +112,93 @@ h1{
     text-align: center;
 }
 
-#datos_experimento_hijo{
-    height: 100%;
+#datos_experimento_hijo2 {
+    padding: 100px 0 60px 0;
 }
 
-#datos_experimento_hijo2{
-    padding: 80px 0 60px 0;
+#datos_circulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.padre_datos_circulos{
+    height: 130px;
+    width: 380px;
+    margin: 0 25px 40px 25px;
+    display: flex;
+}
+
+.imagen_datos_circulos{
+    height: 130px;
+    width: 130px;
+    background-color: #380036;
+    border-radius: 50%;
+    -webkit-box-shadow: -2px 2px 4px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: -2px 2px 4px 2px rgba(0,0,0,0.5);
+    box-shadow: -2px 2px 4px 2px rgba(0,0,0,0.5);
+    z-index: 10;
+    transition: all 0.4s ease-out;
+}
+
+.imagen_datos_circulos img{
+    position: relative;
+    height: 60px;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-30px) translateY(-30px);
+}
+
+.datos_datos_circulos{
+    height: 100%;
+    width: 250px;
+    display: block;
+}
+
+.texto_superior_circulos, .texto_inferior_circulos{
+    width: 100%;
+    height: 50%;
+}
+
+.texto_superior_circulos{
+    display: flex;
+   align-items: center;
+}
+
+.texto_inferior_circulos{
+    background-color: white;
+    border-radius: 5px;
+    width: 320px;
+    margin: 0 0 0 -70px;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+    color: #2c2b2b;
+}
+
+.texto_superior_circulos h6{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 7px 0 0 10px;
+}
+
+.texto_inferior_circulos p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 23px 10px 5px 80px;
+    transition: all 0.3s;
+}
+
+.padre_datos_circulos:hover .texto_inferior_circulos p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.padre_datos_circulos:hover .imagen_datos_circulos{
+    background-color: #0cbaba;
 }
 
 
