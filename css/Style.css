@@ -58,7 +58,7 @@ body {
 header {
     width: 100%;
     background: #2c2b2b;
-    height: 600px;
+    height: 700px;
     background-image: url("../imagenes/estrellas.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -248,7 +248,6 @@ h1 {
 }
 
 #haz_luz{
-    display: none;
     z-index: 100;
     transition: all 0.20s;
 }
@@ -275,7 +274,7 @@ h1 {
 }
 
 .haz_tierra{
-    display: block !important;
+    display: block;
     top:450px;
     left: 50px;
 }
@@ -315,7 +314,7 @@ h1 {
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
-    transition: all 0.3s;
+    transition: all 3s;
 }
 
 #botones_datos a{
