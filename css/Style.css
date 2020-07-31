@@ -226,16 +226,16 @@ h1 {
 
 .estrella{
     left: 50px;
-    top: 20px;
+    top: 0;
 }
 
 .luna{
     left: 500px;
-    top: 50px;
+    top: 30px;
 }
 
 .tierra{
-    top:400px;
+    top:380px;
     left: 200px;
 }
 
